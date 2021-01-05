@@ -1,0 +1,4 @@
+mat-card {
+    display: inline-flex !important;
+    flex-flow: row wrap !important;
+}

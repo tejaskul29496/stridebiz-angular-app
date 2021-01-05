@@ -1,0 +1,34 @@
+button:focus {
+    outline: 0 !important;
+}
+
+.dash-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.is-mobile .dash-toolbar {
+    position: fixed !important;
+    z-index: 2 !important;
+}
+
+h1.dash-app-name {
+    margin-left: 8px;
+}
+
+.dash-sidenav-container {
+    flex: 1;
+}
+
+.dash-sidenav {
+    width: 200px;
+}
+
+.is-mobile .dash-sidenav-container {
+    flex: 1 0 auto;
+}
